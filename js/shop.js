@@ -9,7 +9,7 @@ const listProductItem = u.map(function(item, index){
     var starPercentage = `${(item.rate / 5) * 100}%`
     return `
     <div class="pro cursor-pointer my-3 position-relative">
-                <img class="w-100" src="${item.imageMain}" alt="">
+                <a href="sproduct.html?id=000${item.id}"><img class="w-100" src="${item.imageMain}" alt=""></a>
                 <div class="des py-2">
                     <span>${item.brand}</span>
                     <h5 class="pt-2">${item.name}</h5>
